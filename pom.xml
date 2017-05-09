@@ -4,7 +4,7 @@
 
     <groupId>test-jgitflow</groupId>
     <artifactId>jgitflowtest</artifactId>
-    <version>1.5.3</version>
+    <version>1.6</version>
 
     <build>
         <plugins>
@@ -13,6 +13,7 @@
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <version>1.0-m5.1</version>
                 <configuration>
+                    <pushHotfixes>true</pushHotfixes>
                     <!-- Keep your maven submodules at the same version as the parent POM -->
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <!-- Name the feature branch snapshot according to the feature name -->
