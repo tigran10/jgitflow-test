@@ -26,8 +26,8 @@
                     <enableSshAgent>true</enableSshAgent>
                     <flowInitContext>
                         <developBranchName>feature/develop-three-digits</developBranchName>
-                        <releaseBranchName>feature/master-three-digits</releaseBranchName>
-          </flowInitContext>
+                        <masterBranchName>feature/master-three-digits</masterBranchName>
+                    </flowInitContext>
                 </configuration>
             </plugin>
         </plugins>
