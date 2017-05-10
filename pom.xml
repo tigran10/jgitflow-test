@@ -4,7 +4,7 @@
 
     <groupId>test-jgitflow</groupId>
     <artifactId>jgitflowtest</artifactId>
-    <version>1.7-SNAPSHOT</version>
+    <version>1.7.0</version>
 
     <build>
         <plugins>
@@ -24,6 +24,10 @@
                     <pushFeatures>true</pushFeatures>
                     <!-- Push up stream changes to the origin -->
                     <enableSshAgent>true</enableSshAgent>
+                    <flowInitContext>
+                        <developBranchName>feature/develop-three-digits</developBranchName>
+                        <releaseBranchName>feature/master-three-digits</releaseBranchName>
+          </flowInitContext>
                 </configuration>
             </plugin>
         </plugins>
